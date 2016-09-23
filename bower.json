@@ -1,0 +1,14 @@
+{
+  "name": "ResponsiveMultiLevelMenu",
+  "homepage": "https://github.com/lucax88x/ResponsiveMultiLevelMenu",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
