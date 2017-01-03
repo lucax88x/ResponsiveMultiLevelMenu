@@ -8,12 +8,12 @@
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
-; (function ($, window, undefined) {
+; (function ($, window, Modernizr) {
 
 	'use strict';
 
 	// global
-	var Modernizr = window.Modernizr, $body = $('body');
+	var $body = $('body');
 
 	$.DLMenu = function (options, element) {
 		this.$el = $(element);
@@ -281,4 +281,4 @@
 		return this;
 	};
 
-})(jQuery, window);
+})(jQuery, window, Modernizr);
